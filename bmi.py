@@ -1,7 +1,7 @@
 t = input('請問您的身高(cm)？')
-t = int(t)
+t = float(t)
 h = input('請問您的體重(kg)？')
-h = int(h)
+h = float(h)
 t = t / 100
 bmi = h / t / t
 print('BMI =', bmi)
